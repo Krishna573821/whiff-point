@@ -1,0 +1,30 @@
+.slider-container{
+  background-color: #272E3A;
+  padding: 1rem 1rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+
+.slider-image{
+  border-radius: 1rem;
+  height: 15rem;
+  width: 20rem;
+  object-fit: cover;
+  object-position: center;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    background-color: white;
+    padding: 0.25rem 0.65rem;
+    border-radius: 50%;
+}
+
+.swiper-button-prev::after, .swiper-button-next::after {
+  color: black;
+  font-weight: 900 !important;
+  font-size: 1rem !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

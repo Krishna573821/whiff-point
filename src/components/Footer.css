@@ -1,0 +1,125 @@
+.footer {
+  background-color: #D1D5DB;
+  padding: 2rem;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+
+.footer-logo {
+  width: 100px;
+}
+
+.footer-logo-section{
+  width: 40%;
+}
+
+.footer-logo-section h2 {
+  font-size: 1.8rem;
+  margin-block: 0.5rem;
+}
+
+.footer-logo-section p {
+  color: #555;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+
+.newsletter{
+  display: flex;
+  flex-direction: column;
+  gap: 1.7rem;
+  width: 50%;
+  background-color: #1F2937;
+  padding: 1rem;
+  color: white;
+  border-radius: 1rem;
+}
+
+.newsletter h3 {
+  font-size: 1.5rem;
+}
+
+.newsletter input {
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #374151;
+  color: white  ;
+}
+
+.newsletter input:focus-visible{
+  outline: none;
+}
+.newsletter button {
+  background: linear-gradient(90deg, #00FF75, #007BFF);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+   transition: all 0.5s ease-in-out; 
+  font-size: 1.2rem;
+}
+
+.newsletter button:hover {
+  background: linear-gradient(90deg, #007BFF, #00FF75);
+}
+
+
+.footer-links {
+  width: 100%;
+  margin: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  text-align: center;
+}
+
+
+.footer-column{
+  flex-grow: 1;
+}
+
+.footer-column h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column li {
+  color: #444;
+  font-size: 0.9rem;
+  margin-bottom: 0.3rem;
+  cursor: pointer;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: end;
+  gap: 1rem;
+}
+
+.footer-social a {
+  font-size: 1.5rem;
+  color: #222;
+  transition: color 0.3s;
+}
+
+.footer-social a:hover {
+  color: orangered;
+}
